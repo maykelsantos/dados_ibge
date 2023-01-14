@@ -8,4 +8,3 @@ requisicao = requests.get(url)
 dados = requisicao.json()
 
 display(dados)
-
