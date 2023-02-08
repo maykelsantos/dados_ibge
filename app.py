@@ -18,3 +18,4 @@ pais = dados[0]['resultados'][0]['series'][0]['localidade']['nome']
 
 graphic = px.line(df, x = 'Ano', y = 'PIB', title= 'Timeline do PIB {}'.format(pais))
 graphic.show()
+
